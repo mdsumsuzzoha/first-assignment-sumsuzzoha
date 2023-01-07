@@ -1,6 +1,3 @@
-/* Note
-    margin: 0px 0px 0px 0px;
-*/
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
@@ -22,31 +19,32 @@ main {
 }
 
 
-/* Banner Area */
+/* Banner Section */
 .banner {
-background-image: url("./images/banner/banner3.png");
+    background-image: url("./images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.ban-content {
-    text-align: right;
-    padding-top: 200px;
+header {
     padding-right: 230px;
+    padding-top: 200px;
+}
+
+.ban-content {
+    margin-left: 65%;
 }
 
 .ban-heading {
     font-weight: 700;
     font-size: 65px;
-    padding-left: 850px;
     margin-bottom: 24px;
     color: #FFFFFF;
 }
 
 .ban-desc {
     font-weight: 400;
-    padding-left: 850px;
     margin-bottom: 32px;
     color: #FFFFFF;
 }
@@ -56,7 +54,7 @@ background-image: url("./images/banner/banner3.png");
 }
 
 
-/* <!-- Personal Information Failures --> */
+/*  Personel Information Failures  */
 ul {
     list-style: none;
 }
@@ -68,6 +66,7 @@ ul li:before {
 }
 
 .per-info {
+    justify-content: center;
     margin-top: 130px;
     display: flex;
     gap: 60px;
@@ -75,20 +74,20 @@ ul li:before {
 
 .per-info .head-primary {
     text-align: left;
+    width: 288px;
     font-weight: 700;
     font-size: 40px;
     padding-top: 240px;
     padding-left: 40px;
-    padding-right: 190px;
     margin-bottom: 24px;
 
 }
 
 .per-info .per-des {
     text-align: left;
+    width: 416px;
     font-weight: 400;
     font-size: 16px;
-    padding-right: 90px;
     padding-left: 40px;
     margin-bottom: 16px;
 }
@@ -98,7 +97,7 @@ ul li:before {
 
 }
 
-/* <!-- Person Plans --> */
+/* Persons Plans */
 .per-Plans .head-primary {
     text-align: center;
     font-weight: 700;
@@ -110,7 +109,7 @@ ul li:before {
 .per-Plans .topic {
     display: flex;
     justify-content: center;
-    gap: 86px;
+    gap: 50px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 130px;
@@ -129,12 +128,13 @@ ul li:before {
     color: #737272;
 }
 
-/* <!-- bottom & call --> */
+/* <!-- bottom & call Section --> */
 
 .call .head-primary {
     text-align: left;
     font-weight: 700;
     font-size: 40px;
+    color: #FFFFFF;
     width: 459px;
     margin-bottom: 24px;
 }
@@ -147,7 +147,8 @@ ul li:before {
 }
 
 .call {
-background-image: url("./images/watch.png");
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+        url("./images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,9 +211,16 @@ footer {
     border-radius: 5px;
 }
 
-input[type="text"],
-input[type="email"] {
-    height: 44px;
-    width: 100%;
+input {
+    width: 325px;
+    height: 64px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
 }
 
+::placeholder {
+    font-size: 18px;
+    padding-left: 20px;
+    color: #F3F3F3;
+}
