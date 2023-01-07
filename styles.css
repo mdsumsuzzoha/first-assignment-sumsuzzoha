@@ -1,0 +1,218 @@
+/* Note
+    margin: 0px 0px 0px 0px;
+*/
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    margin: 130px 230px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 65px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Banner Area */
+.banner {
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ban-content {
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 230px;
+}
+
+.ban-heading {
+    font-weight: 700;
+    font-size: 65px;
+    padding-left: 850px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.ban-desc {
+    font-weight: 400;
+    padding-left: 850px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.banner .btn-primary {
+    margin-bottom: 166px;
+}
+
+
+/* <!-- Personal Information Failures --> */
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    padding-right: 10px;
+    color: #16D887;
+}
+
+.per-info {
+    margin-top: 130px;
+    display: flex;
+    gap: 60px;
+}
+
+.per-info .head-primary {
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 240px;
+    padding-left: 40px;
+    padding-right: 190px;
+    margin-bottom: 24px;
+
+}
+
+.per-info .per-des {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 90px;
+    padding-left: 40px;
+    margin-bottom: 16px;
+}
+
+.per-info .list-items {
+    text-align: left;
+
+}
+
+/* <!-- Person Plans --> */
+.per-Plans .head-primary {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    color: #151414;
+}
+
+.per-Plans .topic {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.plan-head {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.plan-des {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* <!-- bottom & call --> */
+
+.call .head-primary {
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    margin-bottom: 24px;
+}
+
+.call {
+    padding-left: 64px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.call {
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Footer Section */
+footer {
+    /* margin padding=top-bottom left-right */
+    padding: 130px 230px;
+    background-color: black;
+}
+
+.foot-div {
+    display: flex;
+    gap: 330px;
+}
+
+.foot-left {
+    text-align: left;
+}
+
+.foot-div .head-primary {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.foot-div .head-secondary {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+
+.foot-left .des-foot {
+    width: 485px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.foot-icon {
+    display: flex;
+    justify-content: left;
+    gap: 18px;
+}
+
+.btn-sec {
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+    width: 160px;
+    height: 65px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 44px;
+    width: 100%;
+}
+
