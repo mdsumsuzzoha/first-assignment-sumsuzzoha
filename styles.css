@@ -143,6 +143,7 @@ ul li:before {
     padding-left: 64px;
     padding-top: 60px;
     padding-bottom: 60px;
+    border-radius: 8px;
 
 }
 
@@ -159,8 +160,7 @@ ul li:before {
 footer {
     /* margin padding=top-bottom left-right */
     padding: 130px 230px;
-    background-color: black;
-}
+    background: #151414;}
 
 .foot-div {
     display: flex;
