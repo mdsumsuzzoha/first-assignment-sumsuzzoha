@@ -24,7 +24,7 @@ main {
 
 /* Banner Area */
 .banner {
-    background-image: url("./images/banner/banner3.png");
+background-image: url("./images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,7 +147,7 @@ ul li:before {
 }
 
 .call {
-    background-image: url("./images/watch.png");
+background-image: url("./images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
